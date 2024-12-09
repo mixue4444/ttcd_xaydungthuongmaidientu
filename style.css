@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quanh{
+    width: 100%;
+    height: auto;
+}
+.bao{
+    width: 1500px;
+    height: 364px;
+    display: flex;
+    padding-left:200px;
+}
+.danhmuc{
+    width: 203px;
+    height: 363px;
+    background-color: white;
+    border: 1px solid rgb(200, 191, 184);
+}
+select[class="hh"]{
+    width: 200px;
+    height:40px;
+    background-color: rgb(22, 204, 22);
+    padding-left:20px ;
+    border: none;
+}
+select[class="hh"]:hover{
+    background-color: white;
+}
+select[class="h"]{
+    width: 200px;
+    height:40px;
+    background-color:white;
+    padding-left:20px ;
+    color: black;
+    border: 1px solid rgb(228, 226, 226);
+}
+select[class="h"]:hover{
+    background-color: green;
+}
+.menu_l{
+    width: 200px;
+    height:40px;
+    background-color: white;
+    list-style: none;
+    border: 1px solid rgb(228, 226, 226);
+    padding-left:20px ;
+    
+}
+.menu_li{
+    margin-top: 10px;
+}
+.menu_l:hover{
+    background-color: green;
+}
+.bao2{
+    width: 931px;
+    height: 363px;
+    background-color:white;
+    border: 1px solid rgb(200, 191, 184);
+}
+.danhmuc2{
+    width: 930px;
+    height: 40px;
+    border: 1px solid rgb(228, 226, 226);
+    display: flex;
+}
+.menu2{
+    display: flex;
+    list-style: none;
+}
+.menu2_li{
+    height:36px ;
+    width:100px ;
+    padding: 10px;
+}
+.menu2_li:hover{
+    background-color: rgb(68, 255, 0);
+    margin: 5px;
+}
+.menu2_li2{
+    padding: 6px;
+    margin-top: 4px;
+}
+.menu2_li2 a{
+color: green;
+text-decoration: none;
+}
+.menu2_li2:hover{
+    background-color: rgb(160, 252, 0);
+}
+select[class="hhh"]{
+    width: 100px;
+    height:32px;
+   border: none;
+   margin: 4px;
+   text-align: center;
+}
+select[class="hhh"]:hover{
+    background-color: rgb(68, 255, 0);
+}
+.ton2{
+    height:38px ;
+    width:250px ;
+    margin: 5px; 
+    display: flex; 
+}
+.lu{
+    display: flex;
+    list-style: none;
+    padding:6px
+    
+}
+.li {
+    width: 40px;
+    padding: 7px;
+    color: black;
+   
+  }
+  .li :hover{ 
+    background-color: rgb(3, 255, 3);
+  }
+.o{
+    width: 430px;
+    height: 40px;
+    padding-left: 180px;
+    margin-top: 10px;
+}
+
+.o2{
+    width: 246px;
+    display: flex;
+}
+.o3{
+    padding-right: 15px;
+    border-right:2px solid rgb(250, 0, 0) ;
+}
+.o4{
+    width:80px;
+    height: 20px;
+   padding-left: 20px;
+}
+.anh2{
+    padding-left: 10px;
+    width: 927px;
+    height: 320px;
+}
+.bao3{
+    width: 1104px;
+    height: 600px;
+    padding-left:200px;
+  
+}
+.logo{
+ width: 1135px;
+text-align: center;
+position: relative;
+
+
+}
+p{
+    font-size: 20px;
+font-weight: bold;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    width: 480px;
+    height: 2px;
+    top: 9px;
+    left: 0;
+    background-color: green;
+}
+.logo::after{
+    content: "";
+        position: absolute;
+        width: 480px;
+        height: 2px;
+        top: 9px;
+        right: 0;
+        background-color: green;  
+}
+.khung1{
+    width: 1104px;
+    height: 400px;
+    padding: 20px; 
+    display: flex;
+    
+ }   
+.khung2{
+    width: 230px;
+    height: 340px;
+   
+    margin: 18px;
+
+}
+.khung2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 4px rgb(35, 35, 35);
+}
+.khung3{
+    width: 230px;
+    height: 260px;
+  
+    position: relative;
+}
+.anh{
+    width: 230px;
+    height: 250px;
+}
+.tron{
+    height: 100px;
+    width: 150px;
+}
+.giam,.giam1{
+    position: absolute;
+    color: white;
+    width: 40px;
+    height: 40px;
+    top: 6px;
+    left: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+.giam1{
+    top: 50px;
+    background-color: red;
+}
+.chu{
+    text-align: center;
+    margin: 10px;
+}
+.gg{
+    
+    display: flex;
+}
+.chu2{
+    color: gray;
+    padding-left: 50px;
+    text-decoration: line-through;
+}
+.chu3{
+    text-align: center;
+    color: rgb(14, 219, 14);
+}
+.chu4{
+    padding-left:70px;
+    color: rgb(14, 219, 14);
+}
+button{
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+.bao4{
+    width: 1104px;
+    height: 600px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
